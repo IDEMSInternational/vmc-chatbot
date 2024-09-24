@@ -1,0 +1,2 @@
+parenttext_pipeline @ git+https://github.com/IDEMSInternational/parenttext-pipeline.git@main
+
