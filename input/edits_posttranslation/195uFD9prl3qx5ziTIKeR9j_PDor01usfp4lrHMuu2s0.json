@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_eng",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_transl",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_eng",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_transl",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_eng",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_transl",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_eng",
+        "status": "released",
+        "order": ""
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_transl",
+        "status": "released",
+        "order": ""
+      }
+    ],
+    "parenttext_name_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
+        "condition_var": "",
+        "category": "WASHText"
+      }
+    ],
+    "parenttext_name_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "ParentText",
+        "language": "zul",
+        "replacement": "WASHText"
+      }
+    ],
+    "triggers_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "change": "{HELP}",
+        "condition_var": "",
+        "category": "HELP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "change": "{MENU}",
+        "condition_var": "",
+        "category": "MENU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "change": "{STOP}",
+        "condition_var": "",
+        "category": "STOP"
+      }
+    ],
+    "triggers_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "original": "{HELP}",
+        "language": "zul",
+        "replacement": "USIZO"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "original": "{MENU}",
+        "language": "zul",
+        "replacement": "IMENYU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "original": "{STOP}",
+        "language": "zul",
+        "replacement": "YIMA"
+      }
+    ],
+    "remove_wa_bold_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "**",
+        "condition_var": "",
+        "category": "*"
+      }
+    ],
+    "remove_wa_bold_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "original": "**",
+        "language": "zul",
+        "replacement": "*"
+      }
+    ],
+    "referrals_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "change": "{generic referrals}",
+        "condition_var": "",
+        "category": "Police (SAPS): 10111\n\nEmergency Line: 112\n\nAmbulance: 10177\n\nFire Department: 10177\n\nCrime Stop: 0860 010 111"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "",
+        "category": "SADAG (all types of mental health support):\n0800 567 567 / www.sadag.org\n\nLifeline (Counselling): \n0861 322 322 or WhatsApp call: 065 989 9238\n\nChildline 116"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "change": "{health referrals}",
+        "condition_var": "",
+        "category": "AIDS: 0800 012 322\n\nCancer: 0800 226 622\n\nFamily planning, abortion and sexual health: \n0800 117 785 (Marie Stopes SA) / 086 132 2322 (Lifeline) / https://www.westerncape.gov.za/service/termination-pregnancy-top\n \nMen's sexual health (including circumcision): Ask a sister at your local clinic"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "Crime Stop: 0860 010 111\n\nChildline: 116\n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#\n\nThuthuzela Clinic (GBV/rape/sexual abuse): find your nearest one at https://www.gov.za/TCC\n \nSafeline (male survivor helpline): 0800 035 553\n\nRefugee support: WhatsApp 063 656 5080 (for children) or 078 594 5591 (for refugee rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "change": "{natural_disasters referrals}",
+        "condition_var": "",
+        "category": "South Africa National Emergency Line: 112\n\nAmbulance and Fire Department: 10177"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "change": "{drugs referrals}",
+        "condition_var": "",
+        "category": "SANCA: 011 892 3829 or WhatsApp call 076 535 1701 / www.sancanational.info\n\nDepartment of Social Development (DSD) 24/7: 0800 121 314 or send a SMS to 32312\n\nWhatsApp Chat Line: 087 163 2025 (8am-5pm)\n\nAl-Anon (for families affected by alcohol): 086 125 2666\n\nNar-Anon (for families affected by drugs): 088 129 6791"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "change": "{family referrals}",
+        "condition_var": "",
+        "category": "Department of Social Development hotline (weekdays 8am-4pm): 0800 220 250\n\nACVV: www.acvv.org.za\n\nChild Welfare: 087 822 1516 / 021 638 3127 (Cape Town)\n\nBadisa: www.badisa.org.za\n\nFAMSA Western Cape: 067 082 1567 / www.famsawc.org.za/our-offices\n\nChildline: 116 / www.childlinesa.org.za\n\nCaring for the aged: Your local DSD office can assist with this as well! (Call 0800 220 250, weekdays 8am-4pm)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{legal_help referrals}.*",
+        "change": "{legal_help referrals}",
+        "condition_var": "",
+        "category": "Black sash helpline: Call/WhatsApp 072 663 3739 or 063 610 1865 \n\nLegal Aid: 0800 110 110 or send a please call me to: 079 835 7179 \n\nUCT law clinic: WhatsApp 068 350 5920\n\nSASSA: www.sassa.gov.za Click the 'social grants' tab to see what support you qualify for!\n\nRefugee law clinic: WhatsApp 072 499 8146 (for status) or \n078 594 5591 (for rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{lgbtqia referrals}.*",
+        "change": "{lgbtqia referrals}",
+        "condition_var": "",
+        "category": "SADAG Helpline: 0800 567 567 / Online support groups: www.sadag.org \n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{school referrals}.*",
+        "change": "{school referrals}",
+        "condition_var": "",
+        "category": "SA school helpline: 0800 202 933\n\nSafe Schools: 0800 456 647\n\nWestern Cape schools: 0861 819 919 "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "change": "{development resources 2}",
+        "condition_var": "",
+        "category": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
+      }
+    ],
+    "referrals_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "original": "{generic referrals}",
+        "language": "zul",
+        "replacement": "Police (SAPS): 10111\n\nEmergency Line: 112\n\nAmbulance: 10177\n\nFire Department: 10177\n\nCrime Stop: 0860 010 111"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "original": "{mental_health referrals}",
+        "language": "zul",
+        "replacement": "SADAG (all types of mental health support):\n0800 567 567 / www.sadag.org\n\nLifeline (Counselling): \n0861 322 322 or WhatsApp call: 065 989 9238\n\nChildline 116"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "original": "{health referrals}",
+        "language": "zul",
+        "replacement": "AIDS: 0800 012 322\n\nCancer: 0800 226 622\n\nFamily planning, abortion and sexual health: \n0800 117 785 (Marie Stopes SA) / 086 132 2322 (Lifeline) / https://www.westerncape.gov.za/service/termination-pregnancy-top\n \nMen's sexual health (including circumcision): Ask a sister at your local clinic"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "original": "{violence referrals}",
+        "language": "zul",
+        "replacement": "Crime Stop: 0860 010 111\n\nChildline: 116\n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#\n\nThuthuzela Clinic (GBV/rape/sexual abuse): find your nearest one at https://www.gov.za/TCC\n \nSafeline (male survivor helpline): 0800 035 553\n\nRefugee support: WhatsApp 063 656 5080 (for children) or 078 594 5591 (for refugee rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "original": "{natural_disasters referrals}",
+        "language": "zul",
+        "replacement": "South Africa National Emergency Line: 112\n\nAmbulance and Fire Department: 10177"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "original": "{drugs referrals}",
+        "language": "zul",
+        "replacement": "SANCA: 011 892 3829 or WhatsApp call 076 535 1701 / www.sancanational.info\n\nDepartment of Social Development (DSD) 24/7: 0800 121 314 or send a SMS to 32312\n\nWhatsApp Chat Line: 087 163 2025 (8am-5pm)\n\nAl-Anon (for families affected by alcohol): 086 125 2666\n\nNar-Anon (for families affected by drugs): 088 129 6791"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "original": "{family referrals}",
+        "language": "zul",
+        "replacement": "Department of Social Development hotline (weekdays 8am-4pm): 0800 220 250\n\nACVV: www.acvv.org.za\n\nChild Welfare: 087 822 1516 / 021 638 3127 (Cape Town)\n\nBadisa: www.badisa.org.za\n\nFAMSA Western Cape: 067 082 1567 / www.famsawc.org.za/our-offices\n\nChildline: 116 / www.childlinesa.org.za\n\nCaring for the aged: Your local DSD office can assist with this as well! (Call 0800 220 250, weekdays 8am-4pm)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{legal_help referrals}.*",
+        "original": "{legal_help referrals}",
+        "language": "zul",
+        "replacement": "Black sash helpline: Call/WhatsApp 072 663 3739 or 063 610 1865 \n\nLegal Aid: 0800 110 110 or send a please call me to: 079 835 7179 \n\nUCT law clinic: WhatsApp 068 350 5920\n\nSASSA: www.sassa.gov.za Click the 'social grants' tab to see what support you qualify for!\n\nRefugee law clinic: WhatsApp 072 499 8146 (for status) or \n078 594 5591 (for rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{lgbtqia referrals}.*",
+        "original": "{lgbtqia referrals}",
+        "language": "zul",
+        "replacement": "SADAG Helpline: 0800 567 567 / Online support groups: www.sadag.org \n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{school referrals}.*",
+        "original": "{school referrals}",
+        "language": "zul",
+        "replacement": "SA school helpline: 0800 202 933\n\nSafe Schools: 0800 456 647\n\nWestern Cape schools: 0861 819 919 "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "zul",
+        "replacement": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "zul",
+        "replacement": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
+      }
+    ]
+  }
+}

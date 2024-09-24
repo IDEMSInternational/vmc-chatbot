@@ -1,0 +1,3199 @@
+{
+    "generic": [
+        {
+            "English": {
+                "keywords": [
+                    "kidnap",
+                    "kidnapping",
+                    "kidnapper",
+                    "kidnapped"
+                ],
+                "mispellings": [
+                    "troublesome",
+                    "kidnapp",
+                    "kiddnap",
+                    "kidnape"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "secuestrar",
+                        "secuestrando",
+                        "secuestradores",
+                        "secuestrados"
+                    ],
+                    "mispellings": [
+                        "secuetrar",
+                        "secestrar",
+                        "secuestrada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "death",
+                    "dead",
+                    "dying"
+                ],
+                "mispellings": [
+                    "deeath",
+                    "deat"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "muerte",
+                        "muerto",
+                        "muriendo"
+                    ],
+                    "mispellings": [
+                        "muete",
+                        "morido",
+                        "moriendo",
+                        "petate\u00f3",
+                        "falleci\u00f3",
+                        "fallecer"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "illegal"
+                ],
+                "mispellings": [
+                    "ilegal",
+                    "ellegal",
+                    "ileagaly"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "ilegal"
+                    ],
+                    "mispellings": [
+                        "igelal",
+                        "illegal",
+                        "contra la ley",
+                        "prohibido"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "poison",
+                    "poisoning",
+                    "poisoned"
+                ],
+                "mispellings": [
+                    "pesian",
+                    "boisoned",
+                    "poision",
+                    "poisioning",
+                    ""
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "veneno",
+                        "envenenamiento",
+                        "envenenado",
+                        "envenenada"
+                    ],
+                    "mispellings": [
+                        "beneno",
+                        "venneno",
+                        "veeno",
+                        "embenendado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "crisis",
+                    "crises"
+                ],
+                "mispellings": [
+                    "krisis",
+                    "krises"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "crisis",
+                        "crisis"
+                    ],
+                    "mispellings": [
+                        "crrisis",
+                        "crsis"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "trouble",
+                    "troubling",
+                    "troublesome",
+                    "troubled"
+                ],
+                "mispellings": [
+                    "troubl",
+                    "trevel",
+                    "trubl"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "problema",
+                        "preocupante",
+                        "problem\u00e1tico",
+                        "preocupado"
+                    ],
+                    "mispellings": [
+                        "poblema",
+                        "peocupado",
+                        "pobematico",
+                        "poblematico",
+                        "peoupado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "victim",
+                    "victimised"
+                ],
+                "mispellings": [
+                    "victm",
+                    "victimized",
+                    "victem"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "v\u00edctima",
+                        "victimizado",
+                        "victimizada"
+                    ],
+                    "mispellings": [
+                        "victima",
+                        "victimisado",
+                        "victimisado",
+                        "victimisada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "emergency",
+                    "911"
+                ],
+                "mispellings": [
+                    "emergincy",
+                    "emergincey",
+                    "emergince",
+                    "imerjensi"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "emergencia",
+                        "911",
+                        "urgente"
+                    ],
+                    "mispellings": [
+                        "emegencia",
+                        "emergensia",
+                        "emegencia",
+                        "urgencia"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "danger",
+                    "dangerous",
+                    "endangered"
+                ],
+                "mispellings": [
+                    "dangeur",
+                    "dangeer",
+                    "dangre",
+                    "dange"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "peligro",
+                        "peligroso",
+                        "en peligro",
+                        "peligrosa"
+                    ],
+                    "mispellings": [
+                        "peligo",
+                        "peligreso"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "stalking"
+                ],
+                "mispellings": [
+                    "staling",
+                    "staking",
+                    "stakling",
+                    "stalkin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "vigilar",
+                        "acosar"
+                    ],
+                    "mispellings": [
+                        "vigilar",
+                        "vijilar",
+                        "acsar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "follow",
+                    "following",
+                    "followed"
+                ],
+                "mispellings": [
+                    "folow",
+                    "folowed",
+                    "followin",
+                    "folowin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "seguir",
+                        "siguiendo",
+                        "seguidos",
+                        "perseguidos"
+                    ],
+                    "mispellings": [
+                        "segir",
+                        "sigiendo",
+                        "segido/segido",
+                        "siguendo"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "suffer",
+                    "suffering",
+                    "suffered",
+                    "tortured"
+                ],
+                "mispellings": [
+                    "sufer",
+                    "sufering",
+                    "sufered"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "sufrir",
+                        "sufriendo",
+                        "sufri\u00f3",
+                        "torturados"
+                    ],
+                    "mispellings": [
+                        "sfriendo",
+                        "sufiendo",
+                        "sufi\u00f3",
+                        "padeciendo",
+                        "padecer"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "hide",
+                    "hiding",
+                    "hid"
+                ],
+                "mispellings": [
+                    "hidin",
+                    "heed",
+                    "haid"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "esconder",
+                        "ocultar"
+                    ],
+                    "mispellings": [
+                        "escoder",
+                        "esconderce",
+                        "escnderse",
+                        "ocultarse",
+                        "oculto"
+                    ]
+                }
+            }
+        }
+    ],
+    "health": [
+        {
+            "English": {
+                "keywords": [
+                    "vomit",
+                    "vomitted",
+                    "vomitting"
+                ],
+                "mispellings": [
+                    "yak",
+                    "vomited",
+                    "womit"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "vomitar",
+                        "vomitado/vomitada",
+                        "vomitando"
+                    ],
+                    "mispellings": [
+                        "gomitar",
+                        "bomitar",
+                        "guacareando",
+                        "guacarear",
+                        "vomtar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "puke",
+                    "puking",
+                    "puked"
+                ],
+                "mispellings": [
+                    "pook",
+                    "pukeing",
+                    "pooking"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "v\u00f3mito",
+                        "vomitando",
+                        "vomitado",
+                        "vomitada"
+                    ],
+                    "mispellings": [
+                        "gomitar",
+                        "bomitar",
+                        "guacareando",
+                        "guacarear",
+                        "vomtar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "disease",
+                    "STD",
+                    "diseases"
+                ],
+                "mispellings": [
+                    "diseaze",
+                    "dizeese",
+                    "SDT"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "enfermedad",
+                        "enfermedad de transmisi\u00f3n sexual",
+                        "enfermedades"
+                    ],
+                    "mispellings": [
+                        "enfrmedad",
+                        "enfermdad",
+                        "ETS",
+                        "ITS",
+                        "enfermmedades"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "sick",
+                    "sickness",
+                    "sickly"
+                ],
+                "mispellings": [
+                    "sik",
+                    "seck",
+                    "seek"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "enfermo/ enferma",
+                        "enfermedad",
+                        "enfermizo",
+                        "enfermiza"
+                    ],
+                    "mispellings": [
+                        "efermo",
+                        "enfrmedad",
+                        "enfermiso",
+                        "malo",
+                        "malito"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "ill",
+                    "illness",
+                    "illnesses"
+                ],
+                "mispellings": [
+                    "illl",
+                    "illniss",
+                    "illnees"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "enfermo",
+                        "enfermedad",
+                        "enfermedades",
+                        "dolencia"
+                    ],
+                    "mispellings": [
+                        "efermo",
+                        "enfrmedad",
+                        "malo",
+                        "malito",
+                        "enfermito/enfermita"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "health",
+                    "healthy"
+                ],
+                "mispellings": [
+                    "haelth",
+                    "healthy",
+                    "helath"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "salud",
+                        "saludable"
+                    ],
+                    "mispellings": [
+                        "saalud",
+                        "sald",
+                        "sano",
+                        "sanito/sanita"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "hospital",
+                    "clinic"
+                ],
+                "mispellings": [
+                    "hopital",
+                    "hopsital",
+                    "celinic"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "hospital",
+                        "cl\u00ednica"
+                    ],
+                    "mispellings": [
+                        "hopital",
+                        "hopsital",
+                        "clinica",
+                        "seguro",
+                        "ISSSTE",
+                        "IMSS"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "miscarriage",
+                    "miscarry"
+                ],
+                "mispellings": [
+                    "miscariage",
+                    "miscarig"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "aborto",
+                        "abortar",
+                        "aborto espont\u00e1neo"
+                    ],
+                    "mispellings": [
+                        "abrto",
+                        "4borto",
+                        "avortar",
+                        "aborto natural"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "pregnant",
+                    "pregnancy",
+                    "expecting"
+                ],
+                "mispellings": [
+                    "pegant",
+                    "preganci",
+                    "prengant"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "embarazada",
+                        "embarazo",
+                        "esperando"
+                    ],
+                    "mispellings": [
+                        "enbarazo",
+                        "embrazo",
+                        "embrasada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "abortion",
+                    "abort",
+                    "aborted",
+                    "aborting"
+                ],
+                "mispellings": [
+                    "abbortion",
+                    "obortion"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "aborto",
+                        "abortar",
+                        "abort\u00f3",
+                        "abortando"
+                    ],
+                    "mispellings": [
+                        "abrto",
+                        "4borto",
+                        "Aborto voluntario",
+                        "avorto"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "COVID",
+                    "COVID19"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "COVID",
+                        "COVID19"
+                    ],
+                    "mispellings": [
+                        "COVID-19",
+                        "covicho",
+                        "corona"
+                    ]
+                }
+            }
+        }
+    ],
+    "mental_health": [
+        {
+            "English": {
+                "keywords": [
+                    "anxiety",
+                    "anxious",
+                    "anxiousness"
+                ],
+                "mispellings": [
+                    "angziaty",
+                    "anxieti",
+                    "anxeity"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "ansiedad",
+                        "ansioso",
+                        "ansiedad",
+                        "angustia"
+                    ],
+                    "mispellings": [
+                        "ansiosa",
+                        "anciosa",
+                        "nerviosa",
+                        "nervioso",
+                        "angustiado",
+                        "preocupado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "depression",
+                    "depressive",
+                    "depressed"
+                ],
+                "mispellings": [
+                    "despression",
+                    "despressive",
+                    "despressed"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "depresi\u00f3n",
+                        "depresivo",
+                        "deprimido",
+                        "deprimida"
+                    ],
+                    "mispellings": [
+                        "depresion",
+                        "depesion",
+                        "triste",
+                        "bajoneado",
+                        "depre",
+                        "ponchado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "disorder",
+                    "disorders"
+                ],
+                "mispellings": [
+                    "dizorder",
+                    "dissorder",
+                    "isorder"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "trastorno",
+                        "trastornos"
+                    ],
+                    "mispellings": [
+                        "desorden",
+                        "transtorno",
+                        "trastrono",
+                        "enfermedad"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "therapy"
+                ],
+                "mispellings": [
+                    "therapi",
+                    "therepy",
+                    "therepi"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "terapia psicol\u00f3gica"
+                    ],
+                    "mispellings": [
+                        "terapia",
+                        "trapia",
+                        "terpia"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "psychologist"
+                ],
+                "mispellings": [
+                    "sychology",
+                    "psichology"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "psic\u00f3logo/psic\u00f3loga"
+                    ],
+                    "mispellings": [
+                        "sic\u00f3loga/sic\u00f3logo",
+                        "terapeuta",
+                        "loquero",
+                        "doctor",
+                        "sicologo/sicologa"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "suicide",
+                    "suicidal",
+                    "suicides"
+                ],
+                "mispellings": [
+                    "suicido",
+                    "suiced"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "suicidio",
+                        "suicida",
+                        "suicidios"
+                    ],
+                    "mispellings": [
+                        "sucidio",
+                        "sucida",
+                        "suicidio"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "stress",
+                    "stressed"
+                ],
+                "mispellings": [
+                    "stresss",
+                    "strees",
+                    "srtess",
+                    "stres"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "estr\u00e9s",
+                        "estresado",
+                        "estresada"
+                    ],
+                    "mispellings": [
+                        "est\u00e9s",
+                        "estesado",
+                        "estrezada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "distress",
+                    "distressed"
+                ],
+                "mispellings": [
+                    "destressed",
+                    "destresss"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "sufrimiento",
+                        "afligido",
+                        "dolor",
+                        "malestar"
+                    ],
+                    "mispellings": [
+                        "sufimiento",
+                        "doolor",
+                        "malstar",
+                        "perturbado",
+                        "consternado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "sad",
+                    "saddened"
+                ],
+                "mispellings": [
+                    "sadd",
+                    "saddenned",
+                    "sadend"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "triste",
+                        "entristecido",
+                        "entristecida"
+                    ],
+                    "mispellings": [
+                        "tistre",
+                        "tiste",
+                        "entistesido",
+                        "entistesida",
+                        "entitercido",
+                        "entitercida"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "scare",
+                    "scared"
+                ],
+                "mispellings": [
+                    "csared",
+                    "csare"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "asustar",
+                        "asustado",
+                        "asustada"
+                    ],
+                    "mispellings": [
+                        "asutar",
+                        "asutado",
+                        "asutada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "afraid"
+                ],
+                "mispellings": [
+                    "afaid"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "atemorizado",
+                        "asustado"
+                    ],
+                    "mispellings": [
+                        "aremotisado",
+                        "aremorizado",
+                        "atremorizado",
+                        "atremorizada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "worried"
+                ],
+                "mispellings": [
+                    "woried"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "preocupado",
+                        "preocupada"
+                    ],
+                    "mispellings": [
+                        "peocupado",
+                        "peocupada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "fear",
+                    "frighten"
+                ],
+                "mispellings": [
+                    "fer",
+                    "fire"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "miedo",
+                        "asustar",
+                        "espantar"
+                    ],
+                    "mispellings": [
+                        "mied",
+                        "mieso"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "panic",
+                    "panicking",
+                    "panicked"
+                ],
+                "mispellings": [
+                    "panik",
+                    "paniked",
+                    "paniking"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "p\u00e1nico",
+                        "entrar en p\u00e1nico",
+                        "entrar en p\u00e1nico"
+                    ],
+                    "mispellings": [
+                        "panico",
+                        "paniko",
+                        "panikeado",
+                        "sock",
+                        "angistiado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "mad"
+                ],
+                "mispellings": [
+                    "md",
+                    "made"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "enojado",
+                        "enfadado",
+                        "molesta",
+                        "molesto"
+                    ],
+                    "mispellings": [
+                        "enjado",
+                        "enjada",
+                        "molesya",
+                        "molestta",
+                        "ira"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "grief"
+                ],
+                "mispellings": [
+                    "greif",
+                    "griev"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "dolor"
+                    ],
+                    "mispellings": [
+                        "dolpr",
+                        "dolr"
+                    ]
+                }
+            }
+        }
+    ],
+    "natural_disasters": [
+        {
+            "English": {
+                "keywords": [
+                    "fire",
+                    "wildfire"
+                ],
+                "mispellings": [
+                    "blaze",
+                    "burnt",
+                    "hot",
+                    "fir"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "fuego",
+                        "incendio"
+                    ],
+                    "mispellings": [
+                        "resplandor",
+                        "quemada",
+                        "caliente",
+                        "fugo",
+                        "fuego"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "earthquake",
+                    "Landslide",
+                    "collapse"
+                ],
+                "mispellings": [
+                    "shake",
+                    "irthquake",
+                    "earthquak",
+                    "fall"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "terremoto",
+                        "deslizamiento de tierra",
+                        "colapso",
+                        "derrumbe"
+                    ],
+                    "mispellings": [
+                        "teremoto",
+                        "temblor",
+                        "copsar",
+                        "derumbe"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "flood",
+                    "flooded",
+                    "flooding",
+                    "monsoon"
+                ],
+                "mispellings": [
+                    "flud",
+                    "flod",
+                    "munson",
+                    "monson",
+                    "monsun"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "inundaci\u00f3n",
+                        "inundado",
+                        "inundar",
+                        "temporada de lluvias"
+                    ],
+                    "mispellings": [
+                        "inudaci\u00f3n",
+                        "inundacion",
+                        "inundasion"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "smoke",
+                    "smoked"
+                ],
+                "mispellings": [
+                    "smooke",
+                    "smok"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "fumar",
+                        "fumado"
+                    ],
+                    "mispellings": [
+                        "fumaar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "typhoon",
+                    "hurricane",
+                    "tornado",
+                    "cyclone"
+                ],
+                "mispellings": [
+                    "storm",
+                    "rain",
+                    "water",
+                    "stormy"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "tif\u00f3n",
+                        "hurac\u00e1n",
+                        "tornado",
+                        "cicl\u00f3n"
+                    ],
+                    "mispellings": [
+                        "tormenta",
+                        "lluvia",
+                        "agua",
+                        "aguacero",
+                        "chifl\u00f3n"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "droughts",
+                    "dry",
+                    "aridity"
+                ],
+                "mispellings": [
+                    "dri"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "sequ\u00edas",
+                        "seco",
+                        "aridez"
+                    ],
+                    "mispellings": [
+                        "cequia",
+                        "sequia",
+                        "arides"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "volcanic eruption",
+                    "volcano"
+                ],
+                "mispellings": [
+                    "fire",
+                    "hot"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "erupci\u00f3n volc\u00e1nica",
+                        "volc\u00e1n"
+                    ],
+                    "mispellings": [
+                        "fuego",
+                        "caliente",
+                        "Don Goyo",
+                        "explosi\u00f3n",
+                        "fumarola"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "wind",
+                    "blast"
+                ],
+                "mispellings": [
+                    "air"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "viento",
+                        "r\u00e1faga",
+                        "ventoso",
+                        "con viento"
+                    ],
+                    "mispellings": [
+                        "aire",
+                        "aironazo",
+                        "airoso",
+                        "ventisca"
+                    ]
+                }
+            }
+        }
+    ],
+    "violence": [
+        {
+            "English": {
+                "keywords": [
+                    "hit",
+                    "hitting",
+                    "hits"
+                ],
+                "mispellings": [
+                    "hitt",
+                    "hitin",
+                    "hittin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "golpear",
+                        "golpeando",
+                        "golpes"
+                    ],
+                    "mispellings": [
+                        "golpiar",
+                        "golpar",
+                        "pegar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "beat",
+                    "beating",
+                    "beats"
+                ],
+                "mispellings": [
+                    "beetin",
+                    "beeting",
+                    "beets",
+                    "bet"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "golpear",
+                        "golpeando",
+                        "golpes"
+                    ],
+                    "mispellings": [
+                        "apuesta"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "abuse",
+                    "abusive",
+                    "abusing",
+                    "Abused"
+                ],
+                "mispellings": [
+                    "abuzin",
+                    "abuz",
+                    "buse"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "abuso",
+                        "abusivo",
+                        "abusando",
+                        "abusado"
+                    ],
+                    "mispellings": [
+                        "avuso",
+                        "abusso",
+                        "gandalla",
+                        "abusada",
+                        "abusiva"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "violent",
+                    "violence"
+                ],
+                "mispellings": [
+                    "violnce",
+                    "vilent"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "violento/violenta",
+                        "violencia",
+                        "agresi\u00f3n"
+                    ],
+                    "mispellings": [
+                        "violenca",
+                        "violenccia",
+                        "violennto",
+                        "violenzia"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "pain",
+                    "painful",
+                    "pains",
+                    "paining"
+                ],
+                "mispellings": [
+                    "pen",
+                    "poen"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "dolor",
+                        "doloroso",
+                        "dolores",
+                        "adolorido"
+                    ],
+                    "mispellings": [
+                        "dolr",
+                        "dolorido",
+                        "dolorso"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "blood",
+                    "bleeding",
+                    "bled"
+                ],
+                "mispellings": [
+                    "blud",
+                    "bleding",
+                    "bleedding"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "sangre",
+                        "sangrando",
+                        "sangrar",
+                        "desangrado"
+                    ],
+                    "mispellings": [
+                        "sanrge",
+                        "zangre",
+                        "sancre"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "bruise",
+                    "bruising",
+                    "bruised"
+                ],
+                "mispellings": [
+                    "brusing",
+                    "brused",
+                    "broosed"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "moret\u00f3n",
+                        "moretones",
+                        "con moretones"
+                    ],
+                    "mispellings": [
+                        "moradura",
+                        "moretn",
+                        "marca en la piel"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "hurt",
+                    "hurting",
+                    "hurts"
+                ],
+                "mispellings": [
+                    "hurted",
+                    "hurrt"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "herida",
+                        "hiriendo",
+                        "heridas"
+                    ],
+                    "mispellings": [
+                        "herido",
+                        "erida",
+                        "lesionado",
+                        "lastimado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "ache",
+                    "aching",
+                    "ached"
+                ],
+                "mispellings": [
+                    "acked"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "doler",
+                        "doloroso",
+                        "adolorido",
+                        "adolorida"
+                    ],
+                    "mispellings": [
+                        "duele",
+                        "atacado",
+                        "lastima"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "injury",
+                    "injured"
+                ],
+                "mispellings": [
+                    "inguries"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "lesi\u00f3n",
+                        "lesionado",
+                        "lesionada"
+                    ],
+                    "mispellings": [
+                        "herido",
+                        "afecci\u00f3n",
+                        "lesion",
+                        "lastimado",
+                        "lecionado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "cut",
+                    "cutting"
+                ],
+                "mispellings": [
+                    "cutt"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "corte",
+                        "cortar"
+                    ],
+                    "mispellings": [
+                        "lesi\u00f3n",
+                        "cort",
+                        "cortr",
+                        "herida"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "harm",
+                    "harming",
+                    "harmful",
+                    "harmed"
+                ],
+                "mispellings": [
+                    "harrm",
+                    "harme",
+                    "haarm",
+                    "harmng"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "da\u00f1o",
+                        "da\u00f1ar",
+                        "da\u00f1ino",
+                        "perjudicados"
+                    ],
+                    "mispellings": [
+                        "lastimar",
+                        "afectado",
+                        "damnificado",
+                        "dano",
+                        "danar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "slap",
+                    "slapped",
+                    "slapping"
+                ],
+                "mispellings": [
+                    "slip",
+                    "slappping",
+                    "slaped",
+                    "slape"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "bofetada",
+                        "abofeteado",
+                        "abofetear"
+                    ],
+                    "mispellings": [
+                        "cachetada",
+                        "vofetada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "punch",
+                    "punched",
+                    "punching",
+                    "punches"
+                ],
+                "mispellings": [
+                    "panch",
+                    "pansh",
+                    "punsh"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "pu\u00f1etazo/golpear",
+                        "golpeado",
+                        "golpeando",
+                        "golpes"
+                    ],
+                    "mispellings": [
+                        "punetazo",
+                        "Colpear",
+                        "Golpar",
+                        "pegar",
+                        "maltratar",
+                        "golps"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "kill",
+                    "killing",
+                    "killed",
+                    "kills"
+                ],
+                "mispellings": [
+                    "cill",
+                    "cills",
+                    "kilin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "matar",
+                        "matando",
+                        "mat\u00f3 a",
+                        "matar"
+                    ],
+                    "mispellings": [
+                        "matarr",
+                        "mataar",
+                        "ejecutar",
+                        "decapitar",
+                        "linchar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "murder",
+                    "murderer",
+                    "murdering",
+                    "murdered"
+                ],
+                "mispellings": [
+                    "merdered",
+                    "murd",
+                    "mrdered"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "asesinato",
+                        "asesinos",
+                        "asesinar",
+                        "asesinados"
+                    ],
+                    "mispellings": [
+                        "assesino",
+                        "asecinado",
+                        "mat\u00f3n",
+                        "exterminador",
+                        "asesinad"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "bang",
+                    "banging",
+                    "banged"
+                ],
+                "mispellings": [
+                    "baning",
+                    "bangin",
+                    "pang"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "estallido",
+                        "estallar",
+                        "estallado"
+                    ],
+                    "mispellings": [
+                        "estayido",
+                        "estalar",
+                        "tronido",
+                        "retumbar",
+                        "estallr"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "blow"
+                ],
+                "mispellings": [
+                    "below",
+                    "blo",
+                    "bow"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "explotar"
+                    ],
+                    "mispellings": [
+                        "Abajo",
+                        "detonar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "cane"
+                ],
+                "mispellings": [
+                    "stick",
+                    "can"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "azotar"
+                    ],
+                    "mispellings": [
+                        "pegar",
+                        "asotar",
+                        "aporrear"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "belt"
+                ],
+                "mispellings": [
+                    "girdle",
+                    "strap"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "cintur\u00f3n",
+                        "pegar con cintur\u00f3n"
+                    ],
+                    "mispellings": [
+                        "cinto",
+                        "Correa",
+                        "zinturon"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "stab",
+                    "stabbing",
+                    "stabbed"
+                ],
+                "mispellings": [
+                    "sabbed",
+                    "satb",
+                    "stabing"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "pu\u00f1alada",
+                        "apu\u00f1alar",
+                        "apu\u00f1alado",
+                        "apu\u00f1alada"
+                    ],
+                    "mispellings": [
+                        "pu\u00f1alada",
+                        "apunalado",
+                        "cuchillada",
+                        "navajazo",
+                        "pu\u00f1al"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "scream",
+                    "screaming",
+                    "screamed"
+                ],
+                "mispellings": [
+                    "screem",
+                    "creamed",
+                    "screemed"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "gritar",
+                        "gritando",
+                        "grit\u00f3"
+                    ],
+                    "mispellings": [
+                        "alz\u00f3 la voz",
+                        "gitar",
+                        "grtar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "push",
+                    "pushing",
+                    "pushed"
+                ],
+                "mispellings": [
+                    "puss",
+                    "pusing"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "empujar",
+                        "empujando",
+                        "empuj\u00f3",
+                        "empujado"
+                    ],
+                    "mispellings": [
+                        "empujo",
+                        "enpujado",
+                        "avent\u00f3",
+                        "lanz\u00f3",
+                        "tir\u00f3"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "shove",
+                    "shoving",
+                    "shoved"
+                ],
+                "mispellings": [
+                    "shoove",
+                    "shooved",
+                    "shov"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "empuj\u00f3n",
+                        "empujar",
+                        "empujado",
+                        "empujada"
+                    ],
+                    "mispellings": [
+                        "avent\u00f3",
+                        "empujo",
+                        "lanz\u00f3",
+                        "tir\u00f3"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "kick",
+                    "kicking",
+                    "kicked"
+                ],
+                "mispellings": [
+                    "kiked",
+                    "kik",
+                    "kickin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "patada",
+                        "patear",
+                        "pateado",
+                        "pateada"
+                    ],
+                    "mispellings": [
+                        "paatada",
+                        "patar",
+                        "patad",
+                        "puntapi\u00e9"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "strike",
+                    "striking",
+                    "stricked"
+                ],
+                "mispellings": [
+                    "strikd",
+                    "strik",
+                    "stricke"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "atacar",
+                        "atacando",
+                        "atacado"
+                    ],
+                    "mispellings": [
+                        "agredir",
+                        "arremeter",
+                        "atakar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "torture",
+                    "tortured",
+                    "torturing"
+                ],
+                "mispellings": [
+                    "torcher",
+                    "tocher",
+                    "torchered"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "tortura",
+                        "torturado",
+                        "torturando"
+                    ],
+                    "mispellings": [
+                        "totura",
+                        "toturar",
+                        "martirizar",
+                        "atormetar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "throw",
+                    "throwing",
+                    "throws"
+                ],
+                "mispellings": [
+                    "trow",
+                    "trowing",
+                    "trows"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "lanzar",
+                        "lanzando",
+                        "lanza",
+                        "lanzamientos"
+                    ],
+                    "mispellings": [
+                        "aventar",
+                        "lansar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "rape",
+                    "raping",
+                    "rapist"
+                ],
+                "mispellings": [
+                    "rapeing",
+                    "rapping",
+                    "raipe",
+                    "rap"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "violaci\u00f3n",
+                        "violar",
+                        "violador"
+                    ],
+                    "mispellings": [
+                        "biolaci\u00f3n",
+                        "violacion",
+                        "abuso"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "violate",
+                    "violation",
+                    "violated"
+                ],
+                "mispellings": [
+                    "violat",
+                    "vilate",
+                    "volated"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "violar",
+                        "violaci\u00f3n",
+                        "violado",
+                        "infringir"
+                    ],
+                    "mispellings": [
+                        "biolaci\u00f3n",
+                        "violacion",
+                        "abuso",
+                        "infringir",
+                        "incumplir"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "sex",
+                    "sexual",
+                    "sexually",
+                    "sext"
+                ],
+                "mispellings": [
+                    "sexting",
+                    "xxx",
+                    "ex"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Sexo",
+                        "sexual",
+                        "sexualmente",
+                        "sextear"
+                    ],
+                    "mispellings": [
+                        "sexteando",
+                        "xxx",
+                        "sexxo",
+                        "pornograf\u00eda",
+                        "porno",
+                        "pack"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "force",
+                    "forced",
+                    "forcing"
+                ],
+                "mispellings": [
+                    "forc",
+                    "forcin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "fuerza",
+                        "forzado",
+                        "forzada",
+                        "forzar"
+                    ],
+                    "mispellings": [
+                        "obligar",
+                        "presionar",
+                        "forsar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "pressure",
+                    "pressured",
+                    "pressuring"
+                ],
+                "mispellings": [
+                    "perssure",
+                    "perssured",
+                    "presssure"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "presi\u00f3n",
+                        "presionado",
+                        "presionar",
+                        "presionada"
+                    ],
+                    "mispellings": [
+                        "prezion",
+                        "presionar",
+                        "presci\u00f3n",
+                        "intimidaci\u00f3n"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "coercive",
+                    "coerce",
+                    "coerced"
+                ],
+                "mispellings": [
+                    "coersive",
+                    "corrisive"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "coercitivo",
+                        "obligar",
+                        "coercionado",
+                        "coercionada"
+                    ],
+                    "mispellings": [
+                        "corcionada",
+                        "coeccionado",
+                        "restringir",
+                        "coersionada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "misconduct",
+                    "inappropriate",
+                    "unacceptable"
+                ],
+                "mispellings": [
+                    "miscund",
+                    "inappropiate"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "mala conducta",
+                        "inadecuado",
+                        "inaceptable",
+                        "inefectiva"
+                    ],
+                    "mispellings": [
+                        "grosero",
+                        "inapropiado",
+                        "malportado",
+                        "portarse mal",
+                        "malcriado",
+                        "maleducado"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "harassment",
+                    "stalking",
+                    "perpetration"
+                ],
+                "mispellings": [
+                    "stolk"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "acoso",
+                        "acosar",
+                        "perpetraci\u00f3n"
+                    ],
+                    "mispellings": [
+                        "acozo",
+                        "hostigar",
+                        "atosigamiento"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "blame",
+                    "blaming"
+                ],
+                "mispellings": [
+                    "blam"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "culpa",
+                        "culpar"
+                    ],
+                    "mispellings": [
+                        "culpr",
+                        "kulpar"
+                    ]
+                }
+            }
+        }
+    ],
+    "drugs": [
+        {
+            "English": {
+                "keywords": [
+                    "drugs",
+                    "drug"
+                ],
+                "mispellings": [
+                    "drog",
+                    "drogs"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "drogas",
+                        "droga"
+                    ],
+                    "mispellings": [
+                        "doga",
+                        "drga",
+                        "narc\u00f3tico",
+                        "estupefaciente",
+                        "dosis",
+                        "rush"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "addict",
+                    "addiction",
+                    "dependence"
+                ],
+                "mispellings": [
+                    "adict",
+                    "adicted"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "adicto",
+                        "adicci\u00f3n",
+                        "dependencia"
+                    ],
+                    "mispellings": [
+                        "adikto",
+                        "drogadicto",
+                        "drogo",
+                        "adcci\u00f3n",
+                        "adiccion",
+                        "adicsion"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "cocaine",
+                    "coke",
+                    "blow",
+                    "charlie"
+                ],
+                "mispellings": [
+                    "crack",
+                    "white",
+                    "koke"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "coca\u00edna",
+                        "coca"
+                    ],
+                    "mispellings": [
+                        "crack",
+                        "Blanca Nieves",
+                        "piedra",
+                        "diosa blanca",
+                        "toque",
+                        "polvo"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "heroine",
+                    "brown",
+                    "smack",
+                    "skag"
+                ],
+                "mispellings": [
+                    "hose",
+                    "hero",
+                    "fit",
+                    "fun"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "hero\u00edna",
+                        "chiva",
+                        "hache",
+                        "la h"
+                    ],
+                    "mispellings": [
+                        "drag\u00f3n",
+                        "amapola",
+                        "arponazo",
+                        "goma",
+                        "goma blanca",
+                        "goma caf\u00e9"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "high",
+                    "tipsy"
+                ],
+                "mispellings": [
+                    "hi",
+                    "tipsi",
+                    "tipisy",
+                    "tipisi",
+                    "haih"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "drogrado",
+                        "drograda",
+                        "borracho",
+                        "borracha"
+                    ],
+                    "mispellings": [
+                        "drogadicto",
+                        "drgado",
+                        "pachuco"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "overdose",
+                    "overdosed",
+                    ""
+                ],
+                "mispellings": [
+                    "overdos"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "sobredosis",
+                        "tuvo una sobredosis"
+                    ],
+                    "mispellings": [
+                        "sobedosis",
+                        "tubo una sobredosis"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "LSD",
+                    "acid",
+                    "cheer",
+                    "drop"
+                ],
+                "mispellings": [
+                    "hallucinogen",
+                    "psychedelic"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "LSD",
+                        "acido",
+                        "diablitos"
+                    ],
+                    "mispellings": [
+                        "alucin\u00f3geno",
+                        "psicod\u00e9lico",
+                        "cuadro",
+                        "boomers",
+                        "yellow sunshine"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "magic mushrooms",
+                    "alice"
+                ],
+                "mispellings": [
+                    "shrooms"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Hongos m\u00e1gicos",
+                        "psilocibina"
+                    ],
+                    "mispellings": [
+                        "ongos",
+                        "pajarito",
+                        "San Isidro",
+                        "derrumbes"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "alcohol",
+                    "booze",
+                    "drinks",
+                    "alcoholic"
+                ],
+                "mispellings": [
+                    "hooch",
+                    "alcol"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "alcohol",
+                        "bebida alcoh\u00f3lica",
+                        "trago",
+                        "alcoh\u00f3lico"
+                    ],
+                    "mispellings": [
+                        "alohol",
+                        "chupe",
+                        "trago",
+                        "alcol",
+                        "chelas",
+                        "cebada"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "speed",
+                    "billy",
+                    "paste",
+                    "base"
+                ],
+                "mispellings": [
+                    "whizz",
+                    "amphetamine",
+                    "chasing the dragon",
+                    "dragon",
+                    "whiz",
+                    "uppers"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "anfetamina",
+                        "cri",
+                        "Pasta",
+                        "base"
+                    ],
+                    "mispellings": [
+                        "anftamina"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "poppers",
+                    "liquid gold",
+                    "jungle juice",
+                    "rush"
+                ],
+                "mispellings": [
+                    "buzz",
+                    "inhalant"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "poppers",
+                        "nitritos"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "weed",
+                    "cannabis",
+                    "Marijuana",
+                    "dope"
+                ],
+                "mispellings": [
+                    "grass",
+                    "pot",
+                    "CBD",
+                    "THC",
+                    "joint",
+                    "hashish"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "marihuana",
+                        "cannabis",
+                        "mariguana",
+                        "droga"
+                    ],
+                    "mispellings": [
+                        "hierba",
+                        "juana",
+                        "CBD",
+                        "THC",
+                        "churro",
+                        "hashish"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "ectasy",
+                    "brownies",
+                    "crystal",
+                    "mandy"
+                ],
+                "mispellings": [
+                    "md",
+                    "mdma",
+                    "molly",
+                    "pills"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "\u00e9xtasis",
+                        "brownies",
+                        "Cristal",
+                        "tacha"
+                    ],
+                    "mispellings": [
+                        "Ad\u00e1n",
+                        "mdma",
+                        "droga del amor",
+                        "frijoles",
+                        "tacha"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "crystal meth",
+                    "ice",
+                    "meth",
+                    "speed"
+                ],
+                "mispellings": [
+                    "crank"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "cristal",
+                        "ice",
+                        "metanfetamina",
+                        "tachas"
+                    ],
+                    "mispellings": [
+                        "meta",
+                        "extaxis",
+                        "c\u00e1psulas m\u00e1gicas",
+                        "hielo"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "ketamine"
+                ],
+                "mispellings": [
+                    "ket"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "ketamina",
+                        "special K",
+                        "vitamina k"
+                    ],
+                    "mispellings": [
+                        "quetamina"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Morphine"
+                ],
+                "mispellings": [
+                    "morphin"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Morfina"
+                    ],
+                    "mispellings": [
+                        "mofina",
+                        "nalbufina (clorhidrato de nalbufina)"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Oxycodone",
+                    "Oxy",
+                    "Oxycotton",
+                    "OC"
+                ],
+                "mispellings": [
+                    "kicker",
+                    "hillbilly"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Oxicodona",
+                        "Oxy"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "rehabilitation",
+                    "detoxification"
+                ],
+                "mispellings": [
+                    "rehab"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "rehabilitaci\u00f3n",
+                        "desintoxicaci\u00f3n"
+                    ],
+                    "mispellings": [
+                        "reabilitaci\u00f3n",
+                        "reabilitacion",
+                        "anexo",
+                        "tratamiento",
+                        "recuperaci\u00f3n",
+                        "detox"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Ayahuasca",
+                        "Yag\u00e9"
+                    ],
+                    "mispellings": [
+                        "DMT",
+                        "sales de ba\u00f1o",
+                        "ayaguasca"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Fentanyl"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Fentanilo"
+                    ],
+                    "mispellings": [
+                        "DMT",
+                        "M30"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "Xilacina"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Xilacina"
+                    ],
+                    "mispellings": [
+                        "Trank"
+                    ]
+                }
+            }
+        }
+    ],
+    "menu": [
+        {
+            "English": {
+                "keywords": [
+                    "MENU",
+                    "Main Menu",
+                    "Menue",
+                    "meny"
+                ],
+                "mispellings": [
+                    "manu",
+                    "meun"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Men\u00fa",
+                        "Men\u00fa Principal",
+                        "Menu",
+                        "meun"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "help": [
+        {
+            "English": {
+                "keywords": [
+                    "HELP",
+                    "halp",
+                    "hep",
+                    "hlep"
+                ],
+                "mispellings": [
+                    "hellp"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Ayuda",
+                        "alluda",
+                        "ayda",
+                        "ayud"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "grow": [
+        {
+            "English": {
+                "keywords": [
+                    "GROW",
+                    "grwo",
+                    "gorw",
+                    "gow"
+                ],
+                "mispellings": [
+                    "gro",
+                    "frow",
+                    "qrow"
+                ]
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Crecer",
+                        "creser",
+                        "cecer",
+                        "crecr"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "book": [
+        {
+            "English": {
+                "keywords": [
+                    "BOOK",
+                    "Bok",
+                    "Bock"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Libro",
+                        "libo",
+                        "livro",
+                        "lbro"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "review": [
+        {
+            "English": {
+                "keywords": [
+                    "REVIEW",
+                    "Revew",
+                    "Reveiw",
+                    "Reivew"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Rese\u00f1a",
+                        "resena",
+                        "rece\u00f1a",
+                        "rse\u00f1a"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "pause": [
+        {
+            "English": {
+                "keywords": [
+                    "PAUSE",
+                    "Puase",
+                    "Paws",
+                    "Paus"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "Pausar",
+                        "pasar",
+                        "pusr",
+                        "Pausa"
+                    ],
+                    "mispellings": [
+                        "Parar"
+                    ]
+                }
+            }
+        }
+    ],
+    "start": [
+        {
+            "English": {
+                "keywords": [
+                    "iniciar"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "iniciar"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "stop": [
+        {
+            "English": {
+                "keywords": [
+                    "stop"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "DETENER"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "id": [
+        {
+            "English": {
+                "keywords": [
+                    "id"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "spa": {
+                    "keywords": [
+                        "id"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ]
+}

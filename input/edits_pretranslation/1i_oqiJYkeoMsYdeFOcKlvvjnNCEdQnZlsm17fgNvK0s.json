@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "insert-childname-beginning-punctuation",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "insert-childname",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "age-customisation-messages",
+        "status": "released",
+        "order": "0"
+      }
+    ],
+    "age-customisation-messages": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{child_age_group}.*",
+        "change": "{child_age_group}",
+        "condition_var": "@fields.age_group_for_tips",
+        "category": "child",
+        "category:teen": "teen",
+        "condition:teen": "teen",
+        "condition_type:teen": "has_any_word",
+        "category:baby": "baby",
+        "condition:baby": "baby",
+        "condition_type:baby": "has_any_word"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding.mp4\")",
+        "condition_var": "@fields.age_group_for_tips",
+        "category": "@(fields.voiceover_video_path & \"onboarding_c.mp4\")",
+        "category:teen": "@(fields.voiceover_video_path & \"onboarding_t.mp4\")",
+        "condition:teen": "teen",
+        "condition_type:teen": "has_any_word",
+        "category:baby": "@(fields.voiceover_video_path & \"onboarding_b.mp4\")",
+        "condition:baby": "baby",
+        "condition_type:baby": "has_any_word"
+      }
+    ],
+    "insert-childname": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Teen.*",
+        "change": "Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Child.*",
+        "change": "Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "insert-childname-beginning-punctuation": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(^|.*[\\.?!] )Your Teen.*",
+        "change": "Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(^|.*[\\.?!] )Your Child.*",
+        "change": "Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(^|.*[\\.?!] )Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "Sheet3": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:^Your Teen.*",
+        "change": "Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Teen.*",
+        "change": ". Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": ". Your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Teen.*",
+        "change": "! Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "! Your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Teen.*",
+        "change": "? Your Teen",
+        "condition_var": "@fields.child_nickname",
+        "category": "? Your teen",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Child.*",
+        "change": ". Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": ". Your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Child.*",
+        "change": "! Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "! Your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Child.*",
+        "change": "? Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "? Your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:^Your Child.*",
+        "change": "Your Child",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your child",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:^Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": ". Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "! Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:(.*[\\.?!] )Your Baby.*",
+        "change": "Your Baby",
+        "condition_var": "@fields.child_nickname",
+        "category": "? Your baby",
+        "category:child_nickname": "@fields.child_nickname",
+        "condition:child_nickname": "",
+        "condition_type:child_nickname": "has_text"
+      }
+    ]
+  }
+}
