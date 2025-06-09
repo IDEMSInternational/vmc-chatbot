@@ -1,0 +1,23 @@
+{
+  "title": "Twenty-four",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Remove the 10, J, Q, K, and Joker cards from the deck. Shuffle the rest and deal four cards face up on the table so that every player can see them. Each player attempts to make the number 24 silently using all four numbers (A counts as 1), and as many operations +, \u2212, \u00d7 and \u00f7 and brackets () as needed. The first person to give an answer with an explanation wins and keeps the 4 cards. Keep playing until there are no cards left.</p>",
+    "further_instructions": "<p>This is a game for two or more players. </p>\n<p>A few combinations might be impossible. In this case, put the cards back and shuffle again to choose another 4. </p>",
+    "strategy_tips": "<p>Think of the factors of 24 to cover i.e, 1\u00d724, 2\u00d712, 3\u00d78, and 4\u00d76. If you have either of the factors in your list, say 1, 2, 3, 4, 6, 8, \u2026  use the remaining numbers to make the other number, or use your numbers to create combinations.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>You can play this game like Snap, with 2 or 4 players. Deal the cards (without the 10, J, Q, K, or Jokers) equally to all players. For two players, on the count of three, they each turn over the top two cards from their pile. For four players, they each just turn over one card. Everyone tries to make 24 using all four cards. The first person to do so takes the cards and puts them at the bottom of their pile. Play continues until one player has run out of cards - then the player with the most cards is the winner.</p>"
+  },
+  "additional_information": {
+    "about": "<p>The number 24 is used because it has so many factors. However, an analysis of all the possible combinations of 4 cards shows that the number 2 would have been the best target number! 99.19% of the combinations could be solved, compared to 80.20% for 24. If you are allowed to use factorials (e.g. 3! = 3\u00d72\u00d71 = 6), then you can solve many more combinations for 24.</p>",
+    "references": [
+      "<p>https://nrich.maths.org/7669</p>",
+      "<p>https://nrich.maths.org/1262</p>",
+      "<p>http://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf</p>",
+      "<p>https://gottfriedville.net/games/24/index.shtml</p>"
+    ]
+  }
+}

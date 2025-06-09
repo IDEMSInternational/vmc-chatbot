@@ -1,0 +1,23 @@
+{
+  "title": "Kaprekar's Number",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Choose a four digit number where the digits are not all the same.</p>\n<p>Rearrange the digits to get the largest and smallest possible numbers these digits can make.</p>\n<p>Subtract the smallest number from the largest to get a new number, and carry on repeating the operation for each new number. You will eventually end up at the same number.</p>",
+    "hint": "<p>For example if you start with 4252, you should do the calculation 5422 - 2245 = 3177. Then do 7731 - 1377 and keep going.</p>",
+    "explanation": "<p>You always end up with the number 6174. This is known as Kaprekar's number. For example 5432 \u2013 2345 = 3087</p>\n<p>8730 \u2013 0378 = 8352</p>\n<p>8532 \u2013 2358 = 6174</p>\n<p>7641 \u2013 1467 = 6174</p>"
+  },
+  "extension_1": {
+    "statement": "<p>What happens when you do this process with 3 digit numbers (where not all the digits are the same)? Can you explain why you always end up at the same number? Note that if you find 99 as an answer at any stage, this would then give 099 as the smallest number and 990 as the biggest.</p>",
+    "hint": "<p>For example, if you start with 792, the first calculation you have to do is 972 - 279 = 693. </p>",
+    "explanation": "<p>We can write a three digit number abc (imagine it is as big as possible, so a\u2265b\u2265c) as 100\u00d7a + 10\u00d7b + c. If we rearrange the digits to make it as small as possible it would be cba which we can write as 100\u00d7c + 10\u00d7b + a. We then subtract to give 100\u00d7a + 10\u00d7b + c - (100\u00d7c + 10\u00d7b + a) = 99\u00d7a - 99\u00d7c = 99\u00d7(a - c). So after one step, the number will be a multiple of 99. The only 3 digit numbers that are multiples of 99 are 099, 198, 297, 396, 495, 594, 693, 792, 891, and 990. We only need to check the first five of these (as we will be rearranging the digits anyway) and we can verify that all of them end up giving the answer 495.</p>"
+  },
+  "additional_information": {
+    "about": "<p>D. R. Kaprekar (1905 - 1986) was an Indian school maths teacher who loved playing with numbers. He discovered a number of results in number theory and described various properties of numbers.</p>",
+    "references": [
+      "<p>https://en.wikipedia.org/wiki/D._R._Kaprekar</p>",
+      "<p>https://plus.maths.org/content/mysterious-number-6174</p>"
+    ]
+  }
+}

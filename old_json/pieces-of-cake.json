@@ -1,0 +1,30 @@
+{
+  "title": "Pieces of Cake",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>What is the biggest number of pieces of a circular cake you can obtain with 5 straight cuts? Cuts must be made on the top of the cake.</p>",
+    "correct_answer": "16",
+    "hint": "<p>Start with a small number of cuts, e.g. 1, 2, 3. How can you add another cut to get the biggest number of pieces? Remember it doesn't say that the pieces have to be of the same size! What happens if many cuts pass through the same point?</p>",
+    "explanation": "<p>With one cut you always get 2 pieces. With two cuts you can get 4 pieces. With three cuts, if all cuts pass through the same point you get 6 pieces. However, you can get 7 pieces if the third cut doesn't pass through the same point as the previous two. Use this idea to get the maximum number with four cuts. So to get the most pieces, make sure that no more than two cuts pass through the same point, otherwise you get less pieces. With four cuts you can get 11 pieces. Do the same again for five cuts, start with the four cuts that give 7 pieces and add a cut without passing through any meeting points (intersections) and you can get 16 pieces.</p>\n<p><img alt=\"\" src=\"images/Pieces_of_Cake_image_0.png\" class=\"Pieces_of_Cake_image_0\" /></p>"
+  },
+  "extension_1": {
+    "statement": "<p>What is the biggest number of pieces of cake you can obtain with 7 cuts?</p>",
+    "hint": "<p>As the number of cuts increases, drawing and counting might be too complicated: can you spot the pattern in the sequence of numbers obtained from previous examples? For 7 cuts, first work out the answer for 6 cuts and then use this result.</p>",
+    "correct_answer": "29",
+    "explanation": "<p>You might realise that there is a formula for obtaining the next number in the sequence from the previous one. You can see this by working out the number of new pieces created when you add an extra cut. For example, adding a fourth cut to 7 pieces obtained from 3 cuts adds 4 new pieces (11). Adding a fifth cut to this adds 5 new pieces (16). (Can you see why this is true in general when thinking about how we cross the existing cuts to create the most pieces?)</p>\n<p>So if C is the number of cuts and P(C) is the maximum number of pieces from C cuts, then the formula is: </p>\n<p>P(C + 1) = P(C) + C + 1</p>\n<p>Therefore:\nP(6) = P(5) + 5 + 1 = 16 + 6 = 22\nP(7) = P(6) + 6 + 1 = 22 + 7 = 29</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Can you work out the biggest number of pieces you can get with 99 cuts?</p>",
+    "hint": "<p>Once you've found out the pattern, try to find a simple formula for the maximum number of pieces. Triangular numbers might help.</p>",
+    "correct_answer": "4951",
+    "explanation": "<p>We found the formula P(C + 1) = P(C) + C + 1 for the maximum number of pieces giving the cuts. However, this is not practical to use for the case of 99 cuts because we would first need to know the number of pieces for 98 cuts, and then the number of pieces for 97 cuts, and so on. You have to think how to get the explicit formula: P(C) = \u00bd\u00d7C\u00d7(C + 1) + 1.</p>\n<p>Either by intuition or by using the formula to work back from P(C) to P(1):\nP(C) = P(C - 1) + C - 1 + 1 </p>\n<p>= P(C - 1) + C  </p>\n<p>= P(C - 2) + (C - 1) + C</p>\n<p>= P(C - 3) + (C - 2) + (C - 1)  + C</p>\n<p>\u2026 </p>\n<p>= P(1) + 2 + 3 \u2026 + (C - 2) + (C - 1) + C</p>\n<p>= 2 + (2 + 3 + \u2026 + C)</p>\n<p>= 1 + (1 + 2 + 3 + \u2026 + C) </p>\n<p>= 1 + \u00bd\u00d7C\u00d7(C + 1)</p>\n<p>The last step is obtained from what we know about triangular numbers.\nTherefore, P(99) = \u00bd\u00d799\u00d7100 = 4951.</p>\n<p>This problem is related to the number of regions (pieces of the cake) in a plane bounded by a generic configuration of lines (cuts). \"Generic\" means that there are no parallel lines and that no more than two lines intersect in the same points. This guarantees that the number of pieces of cake is maximal. Given C lines on a plane (in a generic configuration), then adding an extra line such that it intersects all the previous lines would create (C+1) new regions (around each intersection point of the new line with the previous ones, we add two new regions. However, one of the two is counted also in the next intersection point). This leads to P(C + 1) = P(C) + C + 1.</p>"
+  },
+  "additional_information": {
+    "about": "<p>If you were allowed to cut the cake in any direction, not just from the top, with just three cuts you could cut it into 8 pieces (rather than only 6)!</p>",
+    "references": [
+      "<p>http://www.murderousmaths.co.uk/teacher/pizza.htm</p>"
+    ]
+  }
+}
