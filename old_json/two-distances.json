@@ -1,0 +1,27 @@
+{
+  "title": "Two Distances",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>How many ways are there to draw four dots on a piece of paper such that whichever two dots you choose, the distance between these two points is one of only two possible values?</p>\n<p>Here is one correct example:</p>\n<p><img alt=\"\" src=\"images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>",
+    "correct_answer": "6",
+    "hint": "<p>Try drawing an equilateral triangle. That will give you three points that are all the same distance from each other. Where could you put the fourth point?</p>",
+    "explanation": "<p>If we call the two distances \"short\" and \"long\", then any such drawing of points must have a triangle with one long and two short edges (it's not quite obvious, but if you think about it a bit you can eliminate all other possibilities). Now where does the last point go? To each of the other 3 points, it's connected either via a long or a short edge, giving 8 possibilities. Try out each of them, you will notice that 2 of them do not work out, leaving 6 solutions.</p>\n<p><img alt=\"\" src=\"images/Two_Distances_image_1.png\" class=\"Two_Distances_image_1\" /></p>\n<p>Short edges are represented by <strong>blue</strong> while long edges are represented by <strong>green</strong>. One of these solutions can be extended to 5 points that only use two distances, see the pictures above.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>In how many different ways can you draw 4 points in the plane whose pairwise distances are \u221a2, \u221a2, 2, \u221a10, \u221a10 and 4?</p>",
+    "hint": "<p>Try to figure out what kind of triangles you can make that use 3 of the 6 distances. If you have squared paper, it helps that it is possible to put all the vertices on the grid.</p>",
+    "correct_answer": "2",
+    "explanation": "<p>This set of distances is quite special! For most sets of pairwise distances, there is only one solution, but here there are two.</p>\n<p><img alt=\"\" src=\"images/Two_Distances_image_2.png\" class=\"Two_Distances_image_2\" /></p>"
+  },
+  "additional_information": {
+    "about": "<p>Alex Bellos featured this puzzle in his column in the Guardian newspaper in the UK after hearing about it from maths juggler Colin Wright, who heard it from puzzle maven Peter Winkler.</p>",
+    "references": [
+      "<p>https://www.theguardian.com/science/2019/oct/21/can-you-solve-it-the-four-points-two-distances-problem</p>",
+      "<p>https://www.solipsys.co.uk/new/FourPointsTwoDistancesProof.html?RSS</p>",
+      "<p>http://datagenetics.com/blog/october12019/index.html</p>",
+      "<p>https://arxiv.org/pdf/math/0304192.pdf</p>"
+    ]
+  }
+}

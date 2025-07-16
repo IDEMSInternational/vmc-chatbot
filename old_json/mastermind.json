@@ -1,0 +1,21 @@
+{
+  "title": "Mastermind",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>This is a two player game. Player 1 secretly chooses four cards and puts them in a row face down. Player 2 has seven attempts to guess the suits (clubs, diamonds, hearts, spades) of these cards, in order. Player 2 guesses by laying four cards in a row face up. Player 1 looks at the suits, and tells them how many suits they guessed in the correct position (x), and how many other suits they have guessed correctly but in the wrong position (o). Player 2 uses this information to make a better guess next time.</p>",
+    "further_instructions": "<p>Here is how a game might work:</p>\n<p>Player 1 chooses 1) 4 of Hearts, 2) 3 of Clubs, 3) 8 of Spades, 4) 10 of Spades and places them face down.</p>\n<p>Player 2 lays down for example: 1) 6 of Hearts, 2) 4 of Spades, 3) J of Diamonds, 4) 3 of Spades.</p>\n<p>Player 2 has three correct suits (Heart, Spade and Spade) and two in the correct position - 1) and 4) so Player 1 would say \"you have two in the correct position and one in the wrong position\", but doesn't say which ones - an easy way to record this would be xxo. Then player 2 would guess again. They might think that it was the last two cards that were perfectly correct, so keep these and guess a different first two. Recording the results on pen and paper will be necessary and would look like this:</p>\n<p>HSDS  xxo</p>\n<p>CCDS  xoo </p>\n<p>Note that it is just the suits we are interested in, not the numbers. Player 1 is not saying which ones are correct, just saying how many are correct. Player 2 keeps guessing until all four are correct. </p>",
+    "strategy_tips": "<p>For the guesser: Your first guess will be at random but after that you should be using logic to work out what the solution might be. One good strategy for beginners is just change one card at a time, but as you play more you may find a better optimal strategy.</p>\n<p>For the setter: Think about whether it is best to have all the same suit, all different, or some the same. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Try playing the game by having to guess the numbers of the cards - 1 (A) to 10 - instead of the suits. There will be more options so it will be a lot harder. You could even use J, Q, K too.</p>"
+  },
+  "additional_information": {
+    "about": "<p>This game can be played with numbers, letters, symbols or colours as in the popular board game.</p>",
+    "references": [
+      "<p>https://en.wikipedia.org/wiki/Mastermind_(board_game)</p>",
+      "<p>https://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/</p>"
+    ]
+  }
+}

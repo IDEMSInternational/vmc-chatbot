@@ -1,0 +1,30 @@
+{
+  "title": "Knockdown",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.</p>\n<p>They are then knocked over, one at a time, following these two rules:</p>\n<p>(1.) Starting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.</p>\n<p>(2.) Each time the end of the row is reached, repeat the previous rule.</p>\n<p>What is the number of the last peg to be knocked down?</p>",
+    "correct_answer": "32",
+    "hint": "<p>What happens if you only had 5 pegs? What about 10 or 20? Can you spot the pattern?</p>",
+    "explanation": "<p>Start: 1 2 3 4 5 6 7 8 9 ...</p>\n<p>First round:  \u2715 2 \u2715 4 \u2715 6 \u2715 8 \u2715  ... only even numbers left</p>\n<p>Second round: \u2715 4 \u2715 8 \u2715 12 ...  only multiples of 4 left</p>\n<p>Third round: \u2715 8 \u2715 16 \u2715 24  ...  only multiples of 8 left</p>\n<p>Fourth round: \u2715 16 \u2715 32 ... only multiples of 16 will be left</p>\n<p>Fifth round: \u2715 32 ... only multiples of 32 will be left.</p>\n<p>32 is the only multiple of 32 under 50, so 32 is the last peg left.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Pegs numbered 1 to 1050 are placed in order in a line, with number 1 on the left.</p>\n<p>They are then knocked over, one at a time, following these two rules:</p>\n<p>(1.) Starting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.</p>\n<p>(2.) Each time the end of the row is reached, repeat the previous rule.</p>\n<p>What is the number of the last peg to be knocked down?</p>",
+    "hint": "<p>Can you find the closest power of 2 less than 1050?</p>",
+    "correct_answer": "1024",
+    "explanation": "<p>As before, after the first round we have only multiples of 2. The second leaves only multiples of 4, the pattern continues and each subsequent round leaves only multiples of 8, 16, 32, ..., 512, 1024. All of the multiples of 1024 (except 1024 itself) are bigger than 1050, which means 1024 will be the last peg left.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Pegs numbered 1 to 10000050 are placed in order in a line, with number 1 on the left.</p>\n<p>They are then knocked over, one at a time, following these two rules:</p>\n<p>(1.) Starting with the first standing peg on the left, this time <strong>9 pegs are knocked down and the tenth is left standing</strong>, until the end of the row is reached.</p>\n<p>(2.) Each time the end of the row is reached, repeat the previous rule.</p>\n<p>What is the number of the last peg to be knocked down?</p>",
+    "hint": "<p>Think about the sequence of pegs left in the previous parts 2, 4, 8, ... is there another way of writing down this sequence? In what way will the sequence change in this new case?  </p>",
+    "correct_answer": "10000000",
+    "explanation": "<p>This puzzle is similar to the previous parts. In those cases, at each round we left the multiples of the increasing powers of 2. The sequence 2, 4, 8, 16,... can be written 2, 2\u00b2, 2\u00b3, 2\u2074,... </p>\n<p>In the new puzzle we have multiples of powers of 10 left. Indeed, after the first round only multiples of 10 are left. After the second round only multiples of 100 = 10\u00b2 are left, after the third round only leave multiples of 1000 = 10\u00b3, and so on. Thus 10000000 = 10\u2077 will be the last peg left, as all other multiples of 10\u2077 are larger than 10000050.</p>"
+  },
+  "additional_information": {
+    "about": "<p>This puzzle is actually about powers of 2 and binary numbers), and its second extension about powers of 10 and decimal numbers.</p>",
+    "references": [
+      "<p>https://nrich.maths.org/11677</p>"
+    ]
+  }
+}

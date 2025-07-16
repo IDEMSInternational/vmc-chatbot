@@ -32,11 +32,9 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Make sure you have a correct `credentials.json` file in the same directory as the cloned repo.
 
 ## Run
-
-
-
 ```
 python -m parenttext_pipeline.cli pull_data
+
 python -m parenttext_pipeline.cli compile_flows
 ```
 
@@ -44,3 +42,14 @@ The main script that contains the full process to produce RapidPro flows from th
 
 
 [1]: https://github.com/IDEMSInternational/parenttext-pipeline/blob/main/docs/configuration.md
+
+## JSON to Excel Conversion
+
+There is a script which processes JSON files from the last build of the chatbot and creates an excel doc with the games, puzzles and fun facts in the correct format to go into the google sheets. The old JSON files can be found in the `old_json/` folder. The function extracts and cleans embedded HTML and LaTeX content.
+
+### Usage
+
+```
+python json_to_excel.py <folder with json files> -o <output file name>
+```
+

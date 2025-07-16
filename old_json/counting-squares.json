@@ -1,0 +1,32 @@
+{
+  "title": "Counting Squares",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>How many squares are there in the 10 by 10 square grid below?</p>\n<p><img alt=\"\" src=\"images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>",
+    "correct_answer": "385",
+    "hint": "<p>Can you start with a 4 by 4 square and work out how many squares there are? Remember to keep track of how many 1 by 1, 2 by 2, 3 by 3 and 4 by 4 squares you find.</p>",
+    "explanation": "<p>There is one 10 by 10 square, four 9 by 9 squares, nine 8 by 8 squares, sixteen 7 by 7 squares .... one hundred 1 by 1 squares, all of which are square numbers. So we need to add all the square numbers from 1 to 100: 1 + 4 + 9 + 16 + 25 + 36 + 49 + 64 + 81 + 100 = 385. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>How many different squares can you make by joining dots on a 5 by 5 lattice?</p>\n<p><img alt=\"\" src=\"images/Counting_Squares_image_1.png\" class=\"Counting_Squares_image_1\" /></p>",
+    "hint": "<p>Squares can be different sizes and rotations!</p>",
+    "correct_answer": "50",
+    "explanation": "<p>There are 50 squares, made up as follows:</p>\n<p>Non-rotated: sixteen 1 by 1, nine 2 by 2, four 3 by 3 and one 4 by 4</p>\n<p>Rotated: 9 + 1 + 8 + 2 (varying sizes and tilt angle)</p>\n<p><img alt=\"\" src=\"images/Counting_Squares_image_2.png\" class=\"Counting_Squares_image_2\" /></p>"
+  },
+  "extension_2": {
+    "statement": "<p>How many different squares can you make by joining dots on a 6 by 6 lattice?</p>",
+    "hint": "<p>Keep a table of how many squares there are of each size. Remember you can include squares at an angle.</p>",
+    "correct_answer": "105",
+    "explanation": "<p>The number of squares can be found by the following pattern:</p>\n<p>2 by 2 lattice: 1\u00d71 = 1</p>\n<p>3 by 3 lattice: 1\u00d72 + 4\u00d71 = 6</p>\n<p>4 by 4 lattice: 1\u00d73 + 4\u00d72 + 9\u00d71 = 20</p>\n<p>5 by 5 lattice: 1\u00d74 + 4\u00d73 + 9\u00d72 + 16\u00d71 = 50</p>\n<p>6 by 6 lattice: 1\u00d75 + 4\u00d74 + 9\u00d73 + 16\u00d72 + 25\u00d71 = 105</p>"
+  },
+  "additional_information": {
+    "about": "<p>This is an example of a puzzle where it is best to start with a smaller number and work your way up to the solution. Many questions in maths can be approached in this way. Remember to record all your working neatly and you will be able to spot patterns more easily.</p>",
+    "references": [
+      "<p>https://mathsclub.samicharity.co.uk/en/counting-squares</p>",
+      "<p>https://mathforlove.com/wp-content/uploads/2019/12/On-the-Grid-1-Square-Counting.pdf</p>",
+      "<p>https://brilliant.org/discussions/thread/squares-on-a-grid/</p>"
+    ]
+  }
+}
