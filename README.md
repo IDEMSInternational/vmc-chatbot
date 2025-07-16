@@ -1,4 +1,4 @@
-# Chatbot Pipeline
+# VMC Pipeline
 
 This project builds RapidPro flows for the VMC chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
@@ -32,9 +32,8 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Make sure you have a correct `credentials.json` file in the same directory as the cloned repo.
 
 ## Run
-
 ```
-python -m parenttext_pipeline.cli pull_data 
+python -m parenttext_pipeline.cli pull_data
 
 python -m parenttext_pipeline.cli compile_flows
 ```
