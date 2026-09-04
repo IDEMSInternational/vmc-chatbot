@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "pipeline_version": "1.0.0"
+    },
+     "parents": {
+        "survey": {
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.4.1.zip"
+        }
+    },
+    "flows_outputbasename": "vmc_all",
+    "output_split_number": 1,
+    "sheet_names": {
+        "vmc_sheets" : "1Cvmd1jI7-j-Ar_tEpE6vs8p8LklMwlX73Bg1dvEtU_M"
+    },
+    "sources": {
+        "flow_definitions": {
+            "parent_sources": [
+                "survey.flow_definitions"
+            ],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                    "vmc_sheets"
+                ]
+        },
+         "expiration_times": {
+            "format": "json",
+            "files_dict": {
+                "special_expiration_file": "./edits/specific_expiration.json"
+            }
+        },
+        "qr_treatment": {
+            "format": "json",
+            "files_dict": {
+                "select_phrases_file": "./edits/select_phrases.json",
+                "special_words_file": "./edits/special_words.json"
+            }
+        }
+        
+    },
+    "steps": [
+        {
+            "id": "create_flows",
+            "type": "create_flows",
+            "models_module": "models.parenttext_models",
+            "sources": [
+                "flow_definitions"
+            ],
+            "tags": []
+        },
+        {
+            "id": "update_expiration_times",
+            "type": "update_expiration_times",
+            "sources": [
+                "expiration_times"
+            ],
+            "default_expiration_time": 1440
+        },
+        {
+            "id": "hasanyword_pretranslation",
+            "type": "has_any_word_check"
+        },
+        {
+            "id": "overall_integrity_check_pretranslation",
+            "type": "overall_integrity_check"
+        },
+        {
+            "id": "qr_treatment",
+            "type": "qr_treatment",
+            "sources": [
+                "qr_treatment"
+            ],
+            "qr_treatment": "reformat_whatsapp",
+            "count_threshold": "13",
+            "length_threshold": "18",
+            "add_selectors": "yes"
+        }
+       
+    ]
+}
